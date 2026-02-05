@@ -2578,16 +2578,6 @@
 		)
 		(uuid "576d1270-681c-4db6-a1b4-06ecb44cfc5f")
 	)
-	(label "3V3_OUT"
-		(at 95.25 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8aa606d8-a80e-45d4-8e84-37aff0d338fe")
-	)
 	(label "BuckOut"
 		(at 91.44 74.93 0)
 		(effects
