@@ -13,6 +13,28 @@
 
 int path[] = {
 //for right start
+<<<<<<< Updated upstream
+=======
+0,0,0,
+2,
+0,0,
+2,
+0,0,0,  //Checkpoint A
+1,
+0,0,0,0,
+1,
+0,  //Checkpoint B
+1, 
+2,
+1,
+2,
+1,
+2,  //Checkpoint C
+0,
+2,
+3   //Finish
+
+>>>>>>> Stashed changes
 
 };
 
