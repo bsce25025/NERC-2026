@@ -2,10 +2,24 @@
 #define SENSORS_H
 
 #include <QTRSensors.h>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #include "settings.h"
 
 QTRSensors qtr;
 unsigned int sensorValues[NUM_SENSORS];
+=======
+=======
+>>>>>>> Stashed changes
+#include "config.h"
+
+QTRSensors qtr;
+
+uint16_t sensorValues[NUM_SENSORS]; 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 
 void initSensors() {
     qtr.setTypeRC();
@@ -40,6 +54,14 @@ bool checkIntersection() {
     bool rightWing  = sensorValues[7] > THRESHOLD;
     bool center     = sensorValues[3] > THRESHOLD && sensorValues[4] > THRESHOLD;
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
+=======
+
+>>>>>>> Stashed changes
     // Detect Cross (+) or T-Junction
     if ((leftWing && rightWing) || (leftWing && center && rightWing)) {
         return true;
