@@ -18,9 +18,9 @@
 #define BIN2 21
 
 // --- Sensors ---
-const uint8_t SensorPins[] = {6, 7, 8, 9, 10, 11, 12, 13};
+const uint8_t SensorPins[] = {2, 3, 4, 5, 6, 7, 8, 9};
 #define NUM_SENSORS 8
-#define EMITTER_PIN 5  // Pin to turn IR LEDs on/off
+#define EMITTER_PIN 1  // Pin to turn IR LEDs on/off
 
 // ================================================================
 // 2. TUNING PARAMETERS
