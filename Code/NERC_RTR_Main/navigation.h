@@ -13,11 +13,7 @@
 
 int path[] = {
 //for right start
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
+
 0,0,0,
 2,
 0,0,
@@ -36,11 +32,6 @@ int path[] = {
 0,
 2,
 3   //Finish
-
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
 };
 
